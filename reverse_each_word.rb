@@ -3,4 +3,6 @@ def reverse_each_word(sentance)
   goal = []
   new.sentance.each do |sentance|
     goal << sentance.reverse
+  end
+  goal.join(" ")
 end
