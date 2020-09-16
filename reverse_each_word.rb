@@ -3,4 +3,6 @@ def reverse_each_word(sentance)
   new_array = []
   array.each do |flip|
     new_array << array.reverse
+  end
+  new_array.join 
 end
